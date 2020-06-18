@@ -9,16 +9,11 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.*;
 
-/**
- * Демонстрация как тестить код с помощью моков.
- * Мокаем слой дао чтобы не ходить в бд.
- * https://www.youtube.com/watch?v=Wmrdfzzpr6A&t=759s
- */
 public class UserDaoImplTest {
     private UserDao dao;
 
     /**
-     * Перед каждым тестом будем создаем dao
+     * Перед каждым тестом будем создавать dao
      * @throws Exception
      */
     @Before
